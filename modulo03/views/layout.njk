@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    {% block head %}
+    <title>Vitor Eduardo</title>
+    {% endblock %}
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <a href="/">Sobre</a>
+            <a href="/portfolio">Aulas da rocketseat</a>
+        </div>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
